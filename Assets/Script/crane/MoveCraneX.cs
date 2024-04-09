@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveWithRigidbody : MonoBehaviour
+public class MoveCraneX : MonoBehaviour
 {
     public float speed = 5.0f;
     public float minX = -29f;
