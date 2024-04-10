@@ -12,6 +12,7 @@ public class MoveCraneY : MonoBehaviour
 
     private Rigidbody rb; 
     private Vector3 prePos;
+    public float moveY=0f;
 
     void Start()
     {
@@ -23,11 +24,11 @@ public class MoveCraneY : MonoBehaviour
 
     void FixedUpdate()
     {
-        float yInput = Input.GetAxis("Vertical"); 
+        
 
-        if (Mathf.Abs(yInput) > 0.01f)
+        if (moveY != 0f)
         {   
-            float gravityCompensation = Mathf.Abs(Physics.gravity.y) * mass + yInput * speed;       
+            float gravityCompensation = Mathf.Abs(Physics.gravity.y) * mass + moveY * speed;       
             rb.AddForce(new Vector3(0, gravityCompensation, 0), ForceMode.Force);
             prePos = transform.position;
         }

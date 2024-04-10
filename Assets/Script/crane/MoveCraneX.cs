@@ -9,7 +9,8 @@ public class MoveCraneX : MonoBehaviour
     public float maxX = 29f;
 
     private Rigidbody rb;
-
+    public float moveX=0f;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody>(); 
@@ -17,8 +18,7 @@ public class MoveCraneX : MonoBehaviour
 
     void FixedUpdate() 
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        Vector3 moveDirection = new Vector3(horizontalInput, 0, 0);
+        Vector3 moveDirection = new Vector3(moveX, 0, 0);
         Vector3 newPosition = rb.position + moveDirection * speed * Time.fixedDeltaTime;
         
         newPosition.x = Mathf.Clamp(newPosition.x, minX, maxX);

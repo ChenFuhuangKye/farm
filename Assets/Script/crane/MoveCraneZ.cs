@@ -8,7 +8,9 @@ public class MoveCraneZ : MonoBehaviour
     public float minZ = 4.5f;
     public float maxZ = 11.5f;
     public Transform target;
+
     private Rigidbody rb; 
+    public float moveZ=0f;
 
     void Start()
     {
@@ -17,8 +19,7 @@ public class MoveCraneZ : MonoBehaviour
 
     void FixedUpdate() 
     {
-        float zInput = Input.GetAxis("zc"); 
-        Vector3 moveDirection = new Vector3(0, 0, zInput);
+        Vector3 moveDirection = new Vector3(0, 0, moveZ);
         Vector3 newPosition = rb.position + moveDirection * speed * Time.fixedDeltaTime;
        
         newPosition.z = Mathf.Clamp(newPosition.z, minZ, maxZ);
