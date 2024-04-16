@@ -8,9 +8,9 @@ public class ArmTransfer : MonoBehaviour
     public ConnectRosBridge connectRos;
     public float[] jointPositions;
     public float axis1CorrectionFactor = 90.0f;
-    public float axis2CorrectionFactor = 60.0f;
-    public float axis3CorrectionFactor = 60.0f;
-    public float axis4CorrectionFactor = 60.0f;
+    public float axis2CorrectionFactor = 90.0f;
+    public float axis3CorrectionFactor = 90.0f;
+    public float axis4CorrectionFactor = 0.0f;
     
 
     string inputTopic = "/joint_trajectory_point";
@@ -29,9 +29,7 @@ public class ArmTransfer : MonoBehaviour
         var genericMessage = JsonUtility.FromJson<GenericRosMessage>(jsonString);
         if (genericMessage.topic == inputTopic)
         {         
-            Debug.Log("Received message: " + jsonString);   
             RobotNewsMessageJointTrajectory message = JsonUtility.FromJson<RobotNewsMessageJointTrajectory>(jsonString);
-            Debug.Log("Received message: " + message.msg.positions[0] + ", " + message.msg.positions[1] + ", " + message.msg.positions[2] + ", " + message.msg.positions[3]);
             HandleJointTrajectoryMessage(message);
         }
     }

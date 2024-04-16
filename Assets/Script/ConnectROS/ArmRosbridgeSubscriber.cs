@@ -11,7 +11,7 @@ public class ArmRosbridgeSubscriber : MonoBehaviour
     public GameObject robot;
 
     RobotController robotController;
-    public float[] data = new float[6];
+    public float[] data = new float[4];
     const int ROTATION_THRESHOLD = 3;
 
     // Start is called before the first frame update

@@ -11075,6 +11075,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449945447}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &452441007 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3015179167716660390, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+  m_PrefabInstance: {fileID: 1176289718}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &452993535
 GameObject:
   m_ObjectHideFlags: 0
@@ -13609,6 +13614,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2770263260599860451, guid: 68242f7d998a4e848b065dd7161c329a, type: 3}
   m_PrefabInstance: {fileID: 552420476}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &553880825 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5147082612729013094, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+  m_PrefabInstance: {fileID: 1176289718}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &562911993
 GameObject:
@@ -23926,6 +23936,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981802070}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &982526971 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6729057847818164462, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+  m_PrefabInstance: {fileID: 1176289718}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &986286058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26500,6 +26515,7 @@ Transform:
   - {fileID: 1349392997}
   - {fileID: 511943822}
   - {fileID: 1627734536}
+  - {fileID: 1744357385}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1092792158
@@ -27750,13 +27766,49 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3204592209629676019, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: joints.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204592209629676019, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: joints.Array.data[0].inputAxis
+      value: Wrist
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204592209629676019, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: joints.Array.data[0].robotPart
       value: 
+      objectReference: {fileID: 982526971}
+    - target: {fileID: 3204592209629676019, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: joints.Array.data[1].inputAxis
+      value: Elbow
       objectReference: {fileID: 0}
     - target: {fileID: 3204592209629676019, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: joints.Array.data[1].robotPart
       value: 
+      objectReference: {fileID: 1300814387}
+    - target: {fileID: 3204592209629676019, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: joints.Array.data[2].inputAxis
+      value: Shoulder
       objectReference: {fileID: 0}
+    - target: {fileID: 3204592209629676019, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: joints.Array.data[2].robotPart
+      value: 
+      objectReference: {fileID: 452441007}
+    - target: {fileID: 3204592209629676019, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: joints.Array.data[3].inputAxis
+      value: Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204592209629676019, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: joints.Array.data[3].robotPart
+      value: 
+      objectReference: {fileID: 553880825}
+    - target: {fileID: 3204592209629676019, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: joints.Array.data[4].inputAxis
+      value: Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204592209629676019, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: joints.Array.data[4].robotPart
+      value: 
+      objectReference: {fileID: 553880825}
     - target: {fileID: 3577263781493268246, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_UseGravity
       value: 1
@@ -30898,6 +30950,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2770263260599860451, guid: 68242f7d998a4e848b065dd7161c329a, type: 3}
   m_PrefabInstance: {fileID: 1300697151}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1300814387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 485600415966858807, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+  m_PrefabInstance: {fileID: 1176289718}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1301711712
 PrefabInstance:
@@ -38267,9 +38324,9 @@ MonoBehaviour:
   connectRos: {fileID: 388081197}
   jointPositions: []
   axis1CorrectionFactor: 90
-  axis2CorrectionFactor: 60
-  axis3CorrectionFactor: 60
-  axis4CorrectionFactor: 60
+  axis2CorrectionFactor: 90
+  axis3CorrectionFactor: 90
+  axis4CorrectionFactor: 90
 --- !u!1 &1631380628
 GameObject:
   m_ObjectHideFlags: 0
@@ -40677,6 +40734,58 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2770263260599860451, guid: 68242f7d998a4e848b065dd7161c329a, type: 3}
   m_PrefabInstance: {fileID: 1744137449}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1744357384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1744357385}
+  - component: {fileID: 1744357386}
+  m_Layer: 0
+  m_Name: ArmRosScriber
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1744357385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744357384}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1084178997}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1744357386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744357384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b52d541478f24d4e80925854ec43822, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectRos: {fileID: 388081197}
+  topicName: /arm_angle
+  robot: {fileID: 1879899542}
+  data:
+  - 0
+  - 0
+  - 0
+  - 0
 --- !u!1 &1746266678
 GameObject:
   m_ObjectHideFlags: 0
@@ -44033,6 +44142,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879054576}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1879899542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8892678395191181281, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+  m_PrefabInstance: {fileID: 1176289718}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1883764065
 GameObject:
   m_ObjectHideFlags: 0
