@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465788, g: 0.49641287, b: 0.5748173, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14049,16 +14049,64 @@ PrefabInstance:
     m_TransformParent: {fileID: 1573513634}
     m_Modifications:
     - target: {fileID: 2084937123787517422, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084937123787517422, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084937123787517422, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084937123787517422, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_ParentAnchorPosition.x
       value: -1139.2296
       objectReference: {fileID: 0}
     - target: {fileID: 2084937123787517422, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_ParentAnchorPosition.y
-      value: 405.8734
+      value: 405.87335
       objectReference: {fileID: 0}
     - target: {fileID: 2084937123787517422, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_ParentAnchorPosition.z
       value: 2989.8838
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962827518819184983, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962827518819184983, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962827518819184983, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962827518819184983, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962827518819184983, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ParentAnchorPosition.x
+      value: -11.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962827518819184983, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ParentAnchorPosition.y
+      value: 0.00000089406973
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962827518819184983, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ParentAnchorPosition.z
+      value: 4.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962827518819184983, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ParentAnchorRotation.w
+      value: -0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962827518819184983, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ParentAnchorRotation.x
+      value: 0.50000006
       objectReference: {fileID: 0}
     - target: {fileID: 3065903745830756240, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_LocalScale.x
@@ -14078,7 +14126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3065903745830756240, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07999897
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3065903745830756240, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14157,12 +14205,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 686687732}
     - target: {fileID: 3577263781493268246, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577263781493268246, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577263781493268246, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577263781493268246, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_ParentAnchorPosition.x
       value: -1138.6622
       objectReference: {fileID: 0}
     - target: {fileID: 3577263781493268246, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_ParentAnchorPosition.y
-      value: 640.9703
+      value: 640.97003
       objectReference: {fileID: 0}
     - target: {fileID: 3577263781493268246, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_ParentAnchorPosition.z
@@ -14193,20 +14253,48 @@ PrefabInstance:
       value: 2964.2644
       objectReference: {fileID: 0}
     - target: {fileID: 5356253965787052135, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5356253965787052135, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5356253965787052135, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5356253965787052135, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_ParentAnchorPosition.x
       value: -1139.5262
       objectReference: {fileID: 0}
     - target: {fileID: 5356253965787052135, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_ParentAnchorPosition.y
-      value: 121.39228
+      value: 121.39218
       objectReference: {fileID: 0}
     - target: {fileID: 5356253965787052135, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_ParentAnchorPosition.z
       value: 2989.387
       objectReference: {fileID: 0}
+    - target: {fileID: 8859788278169142930, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8892678395191181281, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_Name
       value: Arm
+      objectReference: {fileID: 0}
+    - target: {fileID: 9087403234595851809, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9087403234595851809, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9087403234595851809, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9087403234595851809, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_ParentAnchorPosition.x
@@ -14214,7 +14302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9087403234595851809, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_ParentAnchorPosition.y
-      value: 192.26628
+      value: 192.26645
       objectReference: {fileID: 0}
     - target: {fileID: 9087403234595851809, guid: b3b3a328564f7dd41b036367e863704b, type: 3}
       propertyPath: m_ParentAnchorPosition.z
@@ -29147,7 +29235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b7c4f073eaeb38448816cc0e7198544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 0.3
   minZ: -4
   maxZ: 4
   target: {fileID: 2139790923}
@@ -29174,8 +29262,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -36045,7 +36133,7 @@ Transform:
   m_GameObject: {fileID: 1543492402}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.519, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 0.1, y: 0.3, z: 0.12}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -36135,7 +36223,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.6, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: -0.7500005, z: 0}
+  m_ConnectedAnchor: {x: 0, y: -1.3499999, z: 0}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -36248,7 +36336,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -36264,11 +36352,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fbe7fde97dd062499bad0acd8602113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
-  minY: 0
-  maxY: 3
+  speed: 0.25
+  minY: -0.79
+  maxY: -0.5
   target: {fileID: 1220630761}
-  mass: 55
   moveY: 0
 --- !u!138 &1543492410
 FixedJoint:
@@ -36810,7 +36897,7 @@ ArticulationBody:
   m_GameObject: {fileID: 1573513629}
   m_Enabled: 1
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 20
   m_ParentAnchorPosition: {x: 0, y: -1.1600006, z: 0}
   m_ParentAnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
@@ -36862,10 +36949,10 @@ ArticulationBody:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
+  m_ImplicitCom: 0
+  m_ImplicitTensor: 0
   m_Immovable: 0
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_CollisionDetectionMode: 0
 --- !u!65 &1573513631
 BoxCollider:
@@ -49800,8 +49887,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -49834,7 +49921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4334682c812c1614c9b5dd4f4530e1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 0.3
   minX: -29
   maxX: 29
   moveX: 0

@@ -20,7 +20,7 @@ public class MoveCraneX : MonoBehaviour
     {
         Vector3 moveDirection = new Vector3(moveX, 0, 0);
         Vector3 newPosition = rb.position + moveDirection * speed * Time.fixedDeltaTime;
-        
+
         newPosition.x = Mathf.Clamp(newPosition.x, minX, maxX);
 
         rb.MovePosition(newPosition);
