@@ -3,7 +3,7 @@
 
 ## Setup Environment
 ```
-$ docker run -it --rm -p 9090:9090  chenfuhuang/pros_crane:latest /bin/bash
+$ docker run -it --rm -p 9090:9090 kyehuang/pros_crane:latest /bin/bash
 ```
 
 ## Docker Shell
